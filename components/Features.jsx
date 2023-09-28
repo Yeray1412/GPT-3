@@ -2,10 +2,10 @@ const Features = ({ head, text, style, textSize }) => {
   return (
     <div className="basis-[33%]">
       <div
-        className={`flex text-center md:text-left ${style} items-center md:items-start`}
+        className={`flex md:text-left ${style} items-start`}
       >
         <h1
-          className={`spec ${textSize} before:left-[50%] max-w-[165px] w-full before:translate-x-[-50%] before:md:left-0 before:md:translate-x-0`}
+          className={`spec ${textSize}  max-w-[165px] w-full left-0 translate-x-0`}
         >
           {head}
         </h1>

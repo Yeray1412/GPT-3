@@ -33,7 +33,7 @@ const imgs = [
 
 const Hero = () => {
   return (
-    <div className="flex relative z-10">
+    <div className="flex relative z-10" id="home">
       <div className="container flex flex-wrap">
         <div className="basis-[50%] grow pt-0 lg:pt-[50px]">
           <h1 className="text-[36px] md:text-[62px] font-bold gradient-text leading-[45px] md:leading-[75px] tracking-[-2px]">

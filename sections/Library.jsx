@@ -26,7 +26,7 @@ const newComp = [
 
 const Library = () => {
   return (
-    <div className="py-[40px]">
+    <div className="py-[60px]" id="library">
       <div className="container">
         <h1 className="text-[36px] md:text-[62px] font-bold gradient-text leading-[45px] md:leading-[75px] tracking-[-2px] my-[60px] md:my-[100px] max-w-[619px]">
           A lot is happening, We are blogging about it.

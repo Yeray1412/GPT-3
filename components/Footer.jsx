@@ -25,20 +25,20 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-between basis-[100%]">
-            <ul className="text-[10px] md:text-[12px] font-thin leading-[30px] md:leading-[35px] mb-[20px] md:mb-0">
+            <ul className="text-[12px] font-thin leading-[30px] md:leading-[35px] mb-[20px] md:mb-0">
               <li className="font-extrabold pb-[8px] md:pb-[10px]">Links</li>
               <li>Overons</li>
               <li>Social Media</li>
               <li>Counters</li>
               <li>Contact</li>
             </ul>
-            <ul className="text-[10px] md:text-[12px] font-thin leading-[30px] md:leading-[35px] mb-[20px] md:mb-0">
+            <ul className="text-[12px] font-thin leading-[30px] md:leading-[35px] mb-[20px] md:mb-0">
               <li className="font-extrabold pb-[8px] md:pb-[10px]">Company</li>
               <li>Terms & Conditions</li>
               <li>Privacy Policy</li>
               <li>Contact</li>
             </ul>
-            <ul className="text-[10px] md:text-[12px] font-thin leading-[30px] md:leading-[35px] mb-[20px] md:mb-0">
+            <ul className="text-[12px] font-thin leading-[30px] md:leading-[35px] mb-[20px] md:mb-0">
               <li className="font-extrabold pb-[8px] md:pb-[10px]">
                 Get in touch
               </li>

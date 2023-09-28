@@ -2,8 +2,11 @@ import { navMotion } from "@/utils/motion";
 import { motion } from "framer-motion";
 import { Spiral as Hamburger } from "hamburger-react";
 import { useState } from "react";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 const Nav = () => {
+  let Link = Scroll.Link;
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -20,11 +23,31 @@ const Nav = () => {
               <img src="./GPT-3.svg" alt="gpt" />
             </div>
             <ul className="hidden lg:flex ul text-[17px] font-light list-none justify-between m-0 p-0">
-              <li className="cursor-pointer p-5">Home</li>
-              <li className="cursor-pointer p-5">What is GPT?</li>
-              <li className="cursor-pointer p-5">Open AI</li>
-              <li className="cursor-pointer p-5">Case Studies</li>
-              <li className="cursor-pointer p-5">Library</li>
+              <li className="cursor-pointer p-5">
+                <Link to="home" smooth>
+                  Home
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="watIsGPT" smooth>
+                  What is GPT?
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="openAI" smooth>
+                  Open AI
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="case" smooth>
+                  Case Studies
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="library" smooth>
+                  Library
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="hidden lg:flex flex-center">
@@ -53,11 +76,31 @@ const Nav = () => {
         {isOpen && (
           <div>
             <ul className="lg:hidden flex flex-col ul text-[17px] font-light list-none justify-between m-0 p-0">
-              <li className="cursor-pointer p-5">Home</li>
-              <li className="cursor-pointer p-5">What is GPT?</li>
-              <li className="cursor-pointer p-5">Open AI</li>
-              <li className="cursor-pointer p-5">Case Studies</li>
-              <li className="cursor-pointer p-5">Library</li>
+              <li className="cursor-pointer p-5">
+                <Link to="home" smooth>
+                  Home
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="watIsGPT" smooth>
+                  What is GPT?
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="openAI" smooth>
+                  Open AI
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="case" smooth>
+                  Case Studies
+                </Link>
+              </li>
+              <li className="cursor-pointer p-5">
+                <Link to="library" smooth>
+                  Library
+                </Link>
+              </li>
             </ul>
             <div className="lg:hidden flex flex-center p-8">
               <button

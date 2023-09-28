@@ -25,11 +25,11 @@ const features = [
 
 const OpenAI = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="openAI">
       <div className="container">
         <div className="gradient-future left-0 top-0 translate-x-[-75%]" />
-        <div className="flex flex-col md:flex-row gap-[100px] pt-[170px] z-10">
-          <div className="text-center md:text-start z-10">
+        <div className="flex flex-col md:flex-row gap-[70px] pt-[170px] z-10">
+          <div className="z-10">
             <h1 className="gradient-text text-[28px] inline-block md:block md:text-[34px] font-bold leading-[35px] md:leading-[40px] mb-[35px] max-w-[525px]">
               The Future is Now and You Just Need To Realize It. Step into
               Future Today & Make it Happen.
@@ -44,7 +44,7 @@ const OpenAI = () => {
                 <Features
                   key={feature.id}
                   {...feature}
-                  style="flex-row md:gap-[70px] gap-[45px] flex-col md:flex-row"
+                  style="flex-row md:gap-[70px] gap-[24px] flex-col md:flex-row"
                   textSize="text-[16px] md:text-[18px]"
                 />
               );
