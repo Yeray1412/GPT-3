@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500;600;700;800&display=swap");
+
+.gradient-text {
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+button {
+  border: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-1 {
+  position: absolute;
+  filter: blur(282px);
+  background: rgb(0, 40, 83);
+  width: 100%;
+  max-width: 800px;
+  height: 800px;
+  background: rgb(0, 40, 83);
+  background: radial-gradient(
+    circle,
+    rgba(0, 40, 83, 1) 32%,
+    rgba(20, 38, 56, 1) 99%
+  );
+  z-index: 0;
+}
+
+.gradient-wIsGPT-3-1 {
+  background: rgb(27, 120, 222);
+  background: radial-gradient(
+    circle,
+    rgba(27, 120, 222, 1) 46%,
+    rgba(27, 120, 222, 1) 90%
+  );
+  filter: blur(100px);
+  width: 623px;
+  height: 558px;
+  position: absolute;
+  z-index: 0;
+}
+
+.gradient-future {
+  background: radial-gradient(
+    circle,
+    rgba(0, 40, 83, 1) 32%,
+    rgba(20, 38, 56, 1) 99%
+  );
+  position: absolute;
+  width: 100%;
+  max-width: 777px;
+  height: 777px;
+  z-index: 0;
+  filter: blur(282px);
+}
+
+.gradient-register {
+  border-radius: 10.724px;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sec-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h1.spec {
+  font-weight: bold;
+  position: relative;
+  letter-spacing: -1px;
+  padding-top: 10px;
+}
+
+h1.spec::before {
+  content: "";
+  width: 38px;
+  height: 3px;
+  background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+  position: absolute;
+  top: 0px;
+}
